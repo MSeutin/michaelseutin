@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/4495330892.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    
+    <title>Contact</title>
+  </head>
+  <body>
+    <!-- NAVBAR  -->
+    <div class="navbar-wrapper">
+      <div class="navbar">
+        <!-- NAVBAR LEFT SIDE  -->
+        <div class="logo">
+          <span>Michael</span>
+          <span class="logo-alt">Seutin</span>
+        </div>
+        <!-- NAVBAR RIGHT SIDE  -->
+        <ul class="nav-links">
+          <li class="nav-items">
+            <a href="../index.html">HOME</a>
+          </li>
+          <li class="nav-items">
+            <a href="./projects.html">PROJECTS</a>
+          </li>
+          <li class="nav-items">
+            <a href="./services.html">SERVICES</a>
+          </li>
+          <li class="nav-items">
+            <a href="./skills.html">SKILLS</a>
+          </li>
+          <li class="nav-items">
+            <a href="../resources/Resume.pdf" target="_blank">RESUME</a>
+          </li>
+          <li class="nav-items">
+            <a class="active" href="./contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <h1 class="contact-title">
+      Contact <span class="light-red-text">Me</span>
+    </h1>
+    <!-- CONTACT HEADER  -->
+    <div class="contact-header">
+      <div class="contact-email">
+        <i class="fa-solid fa-envelope fa-4x"></i>
+        <h3>Email</h3
+        <p>frenchmike@gmail.com</p>
+      </div>
+      <div class="contact-github">
+        <i class="fa-brands fa-github fa-4x"></i>
+                <h3>GitHub</h3>
+        <a href="https://github.com/MSeutin" target="_blank">MSeutin</a>
+      </div>
+    </div>
+    <!-- CONTACT FORM  -->
+    <div class="contact">
+      <div class="contact-content">
+        <h2>Send <span class="light-red-text">Email</span></h2>
+        <!-- FORM  -->
+        <form action="https://formspree.io/f/mwkyjqop" method="POST">
+          <input
+            type="text"
+            id="name"
+            name="user_name"
+            placeholder="Name"
+          /><br />
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <br />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Message"
+          ></textarea>
+          <br />
+          <!-- your other form fields go here -->
+          <button id="contact-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
