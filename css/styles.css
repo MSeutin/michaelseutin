@@ -133,6 +133,14 @@ a.active{
 
 /* FOOTER  */
 .page-footer{
-  height: 10em;
-  background-color: var(--black);
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--dark);
+  color: var(--white);
+  margin-top: 2em;
+}
+
+/* CENTERING  */
+.text-center{
+  text-align: center;
 }
