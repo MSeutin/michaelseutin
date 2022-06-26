@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&family=Roboto&display=swap');
+
 :root {
   --white: #fff;
   --light: #999;
@@ -43,7 +45,7 @@ a:hover{
 }
 
 
-.navbar a {
+.nav-items a {
   display: inline-block;
   text-decoration: none;
   padding: 0 20px;
@@ -55,7 +57,7 @@ a:hover{
   opacity: 0.5;
 }
 
-.navbar a:hover {
+.nav-items a:hover {
   opacity: 1;
 }
 
